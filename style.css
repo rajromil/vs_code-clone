@@ -1,9 +1,11 @@
 body{
     background-color:#0D1117;
 }
+
 *{
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
+
 .headernav{
     display: flex; justify-content: space-between;
     margin-left: 40px;margin-right: 40px;
@@ -11,8 +13,79 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
     padding-left: 20px; padding-right: 20px;
     cursor: pointer;
 }
+
+.titlehead{
+    font-size: 130%;
+    color: #d5cef3;
+    font-weight: 500;
+}
+
 .informat{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     display: flex;justify-content: center;
+}
+
+.downloadbar{
+    background-color: #0078d4;
+    padding: 8px 20px;
+    border-radius: 0.3rem;
+}
+
+.herotext1{
+display:flex;justify-content: center;
+ font-size: 70px;
+ font-weight: 700;
+ color: white;
+ padding-top: 60px;
+}
+
+.herotext2{
+display: flex;justify-content: center;
+ font-size: 70px;
+ font-weight: 700;
+ color: white;
+}
+
+.downloadforwindows{
+    background-color: #0078d4;
+    padding: 10px 15px;
+    margin-right: 5px;
+     border-radius: .25rem;
+     font-weight: 600;
+     font-size: large;
+     color: white;
+}
+
+.trymode{
+    background-color: #25292E;
+    padding: 10px 20px;
     
+    margin-left: 5px;
+    border-radius: 0.25rem; 
+    font-weight:600; font-size: large;
+    color: rgb(201, 197, 197);
+}
+
+.extralinks{
+    display:flex;justify-content: center;
+     margin-top: 10px; 
+     color: #0078d4;
+     font-size: smaller;
+}
+
+.herosection{
+  background-image:url(images/hero-background.webp);
+  display: flex;justify-content: center;
+  margin: 40px;
+  padding: 50px 0px;
+  border-radius: 0.5rem;
+}
+
+.herocontent{
+    background-color: rgba(255,255,255,0.04);
+    margin: 20px; 
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 10px;
+    padding: 16px;
+    color: #c3d0e5;
 }
